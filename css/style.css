@@ -27,7 +27,6 @@ nav {
     /* max-width: 1200px; */
     margin: 0 auto;
     height: 70px;
-
     background-color: rgb(241, 238, 238);
 }
 
@@ -37,35 +36,35 @@ nav {
     padding: 0px 0px 0px 40px;
 }
 
-.header-content {
+.main-content {
     margin-top: 40px;
     margin-left: 180px;
 
 }
 
-.header .title {
+.intro .title {
     font-size: 100px;
     font-weight: bold;
 }
 
-.header .secondary {
+.main .secondary {
     color: #0087CD;
 }
 
-.header-para {
+.intro-para {
     font-weight: 500;
     font-size: 24px;
     line-height: 2;
     max-width: 450px;
 }
 
-.header-para #text-blue {
+.intro-para #text-blue {
     color: #0087CD;
     font-weight: 500;
     font-size: 24px;
 }
 
-.header-para #about {
+.intro-para #about {
     text-decoration: none;
     color: #0087CD;
     font-size: 21px;
