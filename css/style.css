@@ -65,11 +65,70 @@ nav {
 }
 
 .intro-para #about {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #0087CD;
     font-size: 21px;
 }
 
-#landing-page {
-    height: 95vh;
+.intro {
+    height: 90vh;
+}
+
+.main-content .social {
+    margin-top: 7px;
+    margin-left: 5px;
+
+}
+
+.main-content .social img {
+    width: 26px;
+}
+
+.project .title {
+    color: #0087CD;
+    font-weight: 500;
+    font-size: 42px;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+
+}
+
+.project-item {
+    text-align: center;
+    padding: 10px;
+    height: 600px;
+    width: 900px;
+    align-items: center;
+    margin: 2% auto;
+    border-radius: 7px;
+    box-shadow: 10px;
+}
+
+.project-item img {
+    width: 90%;
+    height: 90%;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin: 5px auto;
+    font-size: 25px;
+}
+
+.project-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 2% auto;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.project-item a:hover {
+    background-color: #666;
 }
